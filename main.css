@@ -264,7 +264,7 @@ a:hover{
 	}
 	#nav{
 		position: absolute;
-	    top: 0px;
+	    top: 5px;
 	    font-size: 2em;
 	    color: white;
 	    left: 70vw;
@@ -309,9 +309,11 @@ a:hover{
 	}
 
 	#mainContent{
-		width: 80vw;
-    	padding-left: 7vw;
-    	padding-top: 10vh;
+		height: 65vh;
+	    overflow-y: scroll;
+	    width: 80vw;
+	    padding-left: 7vw;
+	    padding-top: 10vh;
 	}
 
 	#landingPage h1{
