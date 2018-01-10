@@ -245,10 +245,31 @@ a:hover{
 	color: green;
 }
 
+@media only screen and (max-width: 1738px){
+	#head{
+		left: 1vw;
+	}
+
+	#nav{
+		left:1vw;
+	}
+
+	#profilePic img{
+		width: 250px;
+	}
+}
+
+@media only screen and (max-width: 1738px){
+	#profilePic img{
+		width: 200px;
+		left: 25vw;
+	}
+}
+
 @media only screen and (max-width: 1200px) {
 	#landingPage{
 		position: absolute;
-    	 left: 0vw; 
+    	left: 0vw; 
     	background: #ededed;
     	height: 90vh;
     	top: 20vh;
@@ -259,7 +280,7 @@ a:hover{
 	#profilePic img{
 		left: 10vw;
     	top: 120px;
-    	width: 250px;
+    	width: 230px;
 	}
 	#head{
 		top: 20px;
