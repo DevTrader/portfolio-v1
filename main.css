@@ -332,5 +332,8 @@ a:hover{
 	#nav li{
 		font-size: 1.1em;
 	}
+	.copyright{
+		display: none;
+	}
 
 }
