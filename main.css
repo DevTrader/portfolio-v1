@@ -11,20 +11,20 @@ body {
 	font-family: 'Open Sans';
 	overflow: hidden;
 }
-body::-webkit-scrollbar-track
+#mainContent::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	background-color: #F5F5F5;
 	border-radius: 10px;
 }
 
-body::-webkit-scrollbar
+#mainContent::-webkit-scrollbar
 {
 	width: 10px;
 	background-color: #F5F5F5;
 }
 
-body::-webkit-scrollbar-thumb
+#mainContent::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	background-image: -webkit-gradient(linear,
@@ -217,6 +217,7 @@ body::-webkit-scrollbar-thumb
 	width: 45vw;
 	padding-left: 7vw;
 	padding-top: 10vh;
+	padding-right: 7vw;
 	overflow-y: scroll;
 	height: 85vh;
 }
