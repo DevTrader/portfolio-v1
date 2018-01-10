@@ -217,6 +217,7 @@ body::-webkit-scrollbar-thumb
 	width: 45vw;
 	padding-left: 7vw;
 	padding-top: 10vh;
+	overflow-y: scroll;
 }
 
 .paragraph{
