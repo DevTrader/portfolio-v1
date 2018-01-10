@@ -286,16 +286,16 @@ a:hover{
 }
 
 .mobile-nav ul{
-	padding: 0 10vw;
+	padding: 10vw 10vw;
 	margin: 0;
 	list-style-type: none;
 	color: white;
-	font-size: 4em;
+	font-size: 4.3em;
 }
-.mobile-nav li a{
+.mobile-nav li{
 	color: #989AA4;
-	display: none;
 	padding: 15px 20px;
+	margin-top: 70px;
 }
 .mobile-one .mobile-nav li a:hover{
 	background-color: #23252B;
