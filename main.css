@@ -253,14 +253,15 @@ a:hover{
 	background-color: #3C3842;
     max-width: 100vw;
     width: 80vw;
-    height: 100%;
+    height: 110vh;
     transform: translate(-100%, 0);
     position: absolute;
     z-index: 50;
-    top: 110px;
+    top: 0px;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    overflow: hidden;
 }
 .mobile-nav h2{
 	padding: 25px 10vw;
