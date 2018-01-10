@@ -257,12 +257,20 @@ a:hover{
 	#profilePic img{
 		width: 250px;
 	}
+
+	#mainContent{
+		overflow-y: scroll;
+	}
+
 }
 
 @media only screen and (max-width: 1500px){
 	#profilePic img{
 		width: 200px;
 		left: 25vw;
+	}
+	#mainContent{
+		overflow-y: scroll;
 	}
 }
 
