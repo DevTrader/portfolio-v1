@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
     let currentYear = new Date().getFullYear();
     let delay = 200; //content render delay for fadeIn and fadeOut
 //Fade out fill with content and fade in
@@ -96,6 +97,7 @@ $(document).ready(function() {
 
 //Init content
     $('.aboutLi').addClass('active');
+    $('.mobile-nav .aboutLi').removeClass('active');
     fadeFill(aboutObj);
     $('#currentYear').html(currentYear); //copyright year handler
 
@@ -120,4 +122,23 @@ $(document).ready(function() {
     $('.cntcLi').click(function() {
         fadeFill(contactObj);
     });
+
+//Mobile Nav Menu
+	if ($(window).width() <= 1200){
+		console.log('mobile');
+		$(".mobile-nav li a").css("display", "block");
+		let menu = "close";
+		$(".menu-toggle, .mobile-nav ul li").on("click", function() {
+		    if (menu === "close") {
+		      	$(".mobile-nav").css("transform", "translate(0, 0)");
+		     	 menu = "open";
+		     	 console.log(menu, this);
+		    } else {
+		      	$(".mobile-nav").css("transform", "translate(-100%, 0)");
+		      	menu = "close";
+		      	console.log(menu, this);
+		    }
+		});
+		
+    };
 });

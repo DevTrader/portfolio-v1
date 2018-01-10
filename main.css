@@ -107,7 +107,7 @@ body::-webkit-scrollbar-thumb
 
 
 #landingPage{
-	position: relative;
+	position: absolute;
 	left: 30vw;
 	background: #ededed;
 	height: 100vh;
@@ -246,6 +246,62 @@ a:hover{
 	color: green;
 }
 
+#mobileNav{
+	display: none;
+}
+.mobile-nav{
+	background-color: #3C3842;
+    max-width: 100vw;
+    width: 80vw;
+    height: 100%;
+    transform: translate(-100%, 0);
+    position: absolute;
+    z-index: 50;
+    top: 110px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.mobile-nav h2{
+	padding: 25px 10vw;
+	color: white;
+	font-size: 4em;
+
+}
+.menu-toggle{
+	position: absolute;
+    top: 10px;
+    left: 50px;	
+}
+.line{
+	width: 60px;
+	height: 5px;
+	margin: 30px 30px;
+	background-color: #fff;
+}
+
+.menu-toggle:hover{
+	cursor: pointer;
+}
+
+.mobile-nav ul{
+	padding: 0 10vw;
+	margin: 0;
+	list-style-type: none;
+	color: white;
+	font-size: 4em;
+}
+.mobile-nav li a{
+	color: #989AA4;
+	display: none;
+	padding: 15px 20px;
+}
+.mobile-one .mobile-nav li a:hover{
+	background-color: #23252B;
+	color: #fff;
+	border-left: 3px solid #44bfc6;
+}
+
 @media only screen and (max-width: 1738px){
 	#head{
 		left: 1vw;
@@ -262,15 +318,20 @@ a:hover{
 
 }
 
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width: 1400px){
 	#profilePic img{
 		width: 200px;
 		left: 25vw;
 	}
-
 }
 
 @media only screen and (max-width: 1200px) {
+	.active{
+		width: 600px !important;
+	}
+	#mobileNav{
+		display: block;
+	}	
 	#landingPage{
 		position: absolute;
     	left: 0vw; 
@@ -282,19 +343,21 @@ a:hover{
     	padding-left: 10vw;
 	}
 	#profilePic img{
-		left: 10vw;
+		left: 60vw;
     	top: 120px;
     	width: 230px;
 	}
 	#head{
 		top: 20px;
+		left: 60vw;
 	}
 	#nav{
-		position: absolute;
+		display: none;
+		/*position: absolute;
 	    top: 5px;
 	    font-size: 2em;
 	    color: white;
-	    left: 70vw;
+	    left: 70vw;*/
 	}
 	body{
 		background-size: 400% 100%;
