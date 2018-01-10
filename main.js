@@ -17,14 +17,14 @@ $(document).ready(function() {
 
 //Page Content Objects, JSX has got nothing on me.
     let aboutObj = {
-        title: `Elegant and Efficient Web Development.`,
+        title: `About Me.`,
         subtitle: `Main stack: MongoDB, Express.js, React.js and Node.js`,
         content: `<p>Hello, I'm Nicolas Kao Sartor a fullstack web developer mastering the MERN stack. I have 3 years of experience on the front-end and 1 year of experience on the back-end of the web.</p>
 		 <p>I possess strong design skills as well as strong logic/problem solving for applications. To me, being a developer is more than a career it's a passion.</p>
 		 <p>My goal is to help you solve problems and provide value to your customers/community with my skills.</p>
 		 <h2>My Strengths:</h2>
 			 <p>- UI/UX Design.</p>
-			 <p>- Fast loading apps with reusable code. </p>
+			 <p>- Reusable code. </p>
 			 <p>- Out of the box thinking and strong problem solving skills.</p>
 			 <p>- Fast learner with cooperative attitude in colaborative environments.</p>
 			 <p>- I'm always learning and developing my skillset with modern technologies and practices.</p>`
