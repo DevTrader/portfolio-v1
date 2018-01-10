@@ -270,7 +270,7 @@ a:hover{
 	    left: 70vw;
 	}
 	body{
-		background-size: 400% 400%;
+		background-size: 400% 100%;
 	}
 	@-webkit-keyframes Gradient {
 		0% {
