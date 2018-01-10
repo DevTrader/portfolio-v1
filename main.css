@@ -243,3 +243,85 @@ a:hover{
 	cursor: pointer;
 	color: green;
 }
+
+@media only screen and (max-width: 900px) {
+	#landingPae{
+		position: relative;
+    	/* left: 30vw; */
+    	background: #ededed;
+    	height: 90vh;
+    	top: 20vh;
+    	display: inline-block;
+    	width: 100vw;
+    	padding-left: 10vw;
+	}
+	#profilePic img{
+		left: 60vw;
+		top: 150px;
+	}
+	#head{
+		top: 20px;
+	}
+	#nav{
+		position: absolute;
+	    top: 70px;
+	    font-size: 2em;
+	    color: white;
+	    left: 5vw;
+	}
+	body{
+		background-size: 400% 400%;
+	}
+	@-webkit-keyframes Gradient {
+		0% {
+			background-position: 0% 50%
+		}
+		50% {
+			background-position: 80% 50%
+		}
+		100% {
+			background-position: 0% 50%
+		}
+	}
+
+	@-moz-keyframes Gradient {
+		0% {
+			background-position: 0% 50%
+		}
+		50% {
+			background-position: 80% 50%
+		}
+		100% {
+			background-position: 0% 50%
+		}
+	}
+
+	@keyframes Gradient {
+		0% {
+			background-position: 0% 50%
+		}
+		50% {
+			background-position: 80% 50%
+		}
+		100% {
+			background-position: 0% 50%
+		}
+	}
+
+	#mainContent{
+		width: 80vw;
+    	padding-left: 7vw;
+    	padding-top: 5vh;
+	}
+
+	#landingPage h1{
+		top: 0px;
+
+	}
+	.subT{
+		top: 0px;
+	}
+	.paragraph{
+		font-size: 1.3em;
+	}
+}
