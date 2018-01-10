@@ -1,0 +1,245 @@
+body {
+	margin: 0;
+  	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(-45deg, #3600aa 0%, #03aabc 44%, #d8b804 100%);
+	background-size: 200% 200%;
+	-webkit-animation: Gradient 8s ease infinite;
+	-moz-animation: Gradient 8s ease infinite;
+	animation: Gradient 8s ease infinite;
+	font-family: 'Open Sans';
+	overflow: hidden;
+}
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+@-webkit-keyframes Fade {
+	0% {
+		background: rgba(25,25,25,0.6) 
+	}
+	50% {
+		background: rgba(25,25,25,0.2)
+	}
+	100% {
+		background: rgba(25,25,25,0.6)
+	}
+}
+
+@-moz-keyframes Fade {
+	0% {
+		background: rgba(25,25,25,0.6)
+	}
+	50% {
+		background: rgba(25,25,25,0.2)
+	}
+	100% {
+		background: rgba(25,25,25,0.6)
+	}
+}
+
+@keyframes Fade {
+	0% {
+		background: rgba(25,25,25,0.6)
+	}
+	50% {
+		background: rgba(25,25,25,0.2)
+	}
+	100% {
+		background: rgba(25,25,25,0.6)
+	}
+}
+
+
+#landingPage{
+	position: relative;
+	left: 30vw;
+	background: #ededed;
+	height: 100vh;
+	top: 0px;
+	display: inline-block;
+	width: 60vw;
+	padding-left: 10vw;
+}
+#landingPage h1{
+	position: relative;
+	top: 50px;
+}
+.subT{
+	position: relative;
+	top: 3vh;
+}
+#profilePic img{
+	width: 300px;
+	position: absolute;
+	top: 50px;
+	left: 20vw;
+	-webkit-box-shadow: 8px 9px 17px 0px rgba(0,0,0,0.45);
+	-moz-box-shadow: 8px 9px 17px 0px rgba(0,0,0,0.45);
+	box-shadow: 8px 9px 17px 0px rgba(0,0,0,0.45);
+}
+#head{
+	position: absolute;
+	color: white;
+	left: 5vw;
+	top: 150px;
+	border-left: 7px solid red;
+	font-size: 1.7em;
+/*	background-color: rgba(71, 71, 71, 0.2);*/
+	padding: 5px;
+
+}
+#head p{
+	padding-left: 10px;
+	padding-right: 20px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.subTitle{
+	font-size: 0.8em;
+	color: black;
+}
+
+#nav{
+	position: absolute;
+	top: 350px;
+	font-size: 2em;
+	color: white;
+	left: 5vw;
+}
+
+#nav p {
+	font-size: 1.1em;
+	border-left: 7px solid orange;
+	padding: 10px;
+}
+
+#nav li{
+	transition: all 0.8s;
+	list-style: none;
+	margin-top: 5px;
+	padding-left: 10px;
+	width: 200px;
+
+}
+#nav li:hover{
+	cursor: pointer;
+	background: rgba(25,25,25,0.3);
+	text-decoration: underline;
+	border-left: 8px solid orange;
+	width: 250px;
+}
+
+.active{
+	background: rgba(25,25,25,0.3);
+	text-decoration: underline;
+	border-left: 8px solid yellow;
+	width: 300px !important;
+	-webkit-animation: Fade 5s ease infinite;
+	-moz-animation: Fade 5s ease infinite;
+	animation: Fade 5s ease infinite;
+}
+
+.copyright{
+	position: absolute;
+	width: 100vw;
+	height: 30px;
+	background: #686868;
+	bottom: 0vh;
+}
+.copyright p{
+	position: absolute;
+	text-align: center;
+	color: white;
+	bottom: 0.5vh;
+	width: 100%;
+	margin: 0;
+	font-size: 0.8em;
+}
+
+#mainContent{
+	width: 45vw;
+	padding-left: 7vw;
+	padding-top: 10vh;
+}
+
+.paragraph{
+	margin-top: 50px; 
+}
+
+.paragraph p {
+	font-size: 1.2em;
+}
+
+.techCol div{
+	display: inline-block;
+	height: 10vh;
+	margin: 5px 25px;
+	margin-bottom: 120px;
+}
+
+a{
+	text-decoration: none;
+	transition: all 0.4s;
+}
+
+a:hover{
+	cursor: pointer;
+	color: green;
+}
