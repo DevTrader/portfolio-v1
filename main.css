@@ -218,6 +218,7 @@ body::-webkit-scrollbar-thumb
 	padding-left: 7vw;
 	padding-top: 10vh;
 	overflow-y: scroll;
+	height: 85vh;
 }
 
 .paragraph{
@@ -258,9 +259,6 @@ a:hover{
 		width: 250px;
 	}
 
-	#mainContent{
-		overflow-y: scroll;
-	}
 
 }
 
@@ -269,9 +267,7 @@ a:hover{
 		width: 200px;
 		left: 25vw;
 	}
-	#mainContent{
-		overflow-y: scroll;
-	}
+
 }
 
 @media only screen and (max-width: 1200px) {
