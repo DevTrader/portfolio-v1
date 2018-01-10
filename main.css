@@ -258,6 +258,7 @@ a:hover{
 	#profilePic img{
 		left: 10vw;
     	top: 120px;
+    	width: 250px;
 	}
 	#head{
 		top: 20px;
