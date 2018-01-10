@@ -48,7 +48,7 @@ $(document).ready(function() {
 			</div>
 			<div id="reactProject" class="projectCard">
 				<h2>React Project (Coming Soon)</h2>
-				<p><a href='' target='_blank'>GitHub</a></p>
+				<p><a>GitHub</a></p>
 				<p>This application will be a portfolio tracker for cryptocurrencies, utilizing React.js, AJAX, RESTful APIs and Google Authentication, a live preview and code will be available soon.</p>
 			</div>`
     };
