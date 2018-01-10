@@ -244,10 +244,10 @@ a:hover{
 	color: green;
 }
 
-@media only screen and (max-width: 900px) {
-	#landingPae{
-		position: relative;
-    	/* left: 30vw; */
+@media only screen and (max-width: 1200px) {
+	#landingPage{
+		position: absolute;
+    	 left: 0vw; 
     	background: #ededed;
     	height: 90vh;
     	top: 20vh;
@@ -256,18 +256,18 @@ a:hover{
     	padding-left: 10vw;
 	}
 	#profilePic img{
-		left: 60vw;
-		top: 150px;
+		left: 10vw;
+    	top: 120px;
 	}
 	#head{
 		top: 20px;
 	}
 	#nav{
 		position: absolute;
-	    top: 70px;
+	    top: 0px;
 	    font-size: 2em;
 	    color: white;
-	    left: 5vw;
+	    left: 70vw;
 	}
 	body{
 		background-size: 400% 400%;
@@ -311,7 +311,7 @@ a:hover{
 	#mainContent{
 		width: 80vw;
     	padding-left: 7vw;
-    	padding-top: 5vh;
+    	padding-top: 10vh;
 	}
 
 	#landingPage h1{
@@ -324,4 +324,13 @@ a:hover{
 	.paragraph{
 		font-size: 1.3em;
 	}
+
+	#nav p{
+    	padding: 0px;
+    	margin: 5px;
+	}
+	#nav li{
+		font-size: 1.1em;
+	}
+
 }
