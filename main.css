@@ -216,10 +216,10 @@ body {
 #mainContent{
 	width: 45vw;
 	padding-left: 7vw;
-	padding-top: 10vh;
-	padding-right: 7vw;
+	padding-top: 5vh;
+	padding-right: 8vw;
 	overflow-y: scroll;
-	height: 85vh;
+	height: calc(95vh - 30px);
 }
 
 .paragraph{
@@ -419,11 +419,12 @@ a:hover{
 	}
 
 	#mainContent{
-		height: 75vh;
+		height: 80vh;
 	    overflow-y: scroll;
 	    width: 80vw;
 	    padding-left: 7vw;
-	    padding-top: 10vh;
+	    padding-top: 7vh;
+	    padding-right: 13vw;
 	}
 
 	#landingPage h1{
@@ -466,4 +467,5 @@ a:hover{
 		-moz-animation:none !important;
 		animation: none !important;
 	}
+
 }
